@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TubeBoard layer 01 — background glass: subtle cool-blue central glow (transparent base) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="glassGlow" cx="512" cy="452" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6FA0D8" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#5B86BC" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#5B86BC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="01-background-glass">
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#glassGlow)"/>
+  </g>
+</svg>

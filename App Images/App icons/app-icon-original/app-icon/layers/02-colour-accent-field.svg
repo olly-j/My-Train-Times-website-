@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TubeBoard layer 02 — colour accent field: three translucent tube-line glass ribbons
+     (red / green / amber). Restrained, not a rainbow. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="arcRed" x1="150" y1="0" x2="874" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5392E" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#F5392E" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#F5392E" stop-opacity="0.56"/>
+      <stop offset="0.86" stop-color="#F5392E" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#F5392E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arcGreen" x1="150" y1="0" x2="874" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2BBE63" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#2BBE63" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#2BBE63" stop-opacity="0.56"/>
+      <stop offset="0.86" stop-color="#2BBE63" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#2BBE63" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arcAmber" x1="150" y1="0" x2="874" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC233" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#FFC233" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#FFC233" stop-opacity="0.56"/>
+      <stop offset="0.86" stop-color="#FFC233" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#FFC233" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="02-colour-accent-field" fill="none" stroke-linecap="round" stroke-width="36">
+    <path d="M150 566 Q512 510 874 566" stroke="url(#arcRed)"/>
+    <path d="M150 612 Q512 556 874 612" stroke="url(#arcGreen)"/>
+    <path d="M150 658 Q512 602 874 658" stroke="url(#arcAmber)"/>
+  </g>
+</svg>

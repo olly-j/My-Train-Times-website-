@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TubeBoard layer 06 — foreground specular: gentle diagonal glass sheen.
+     OPTIONAL: Icon Composer's Liquid Glass material adds specular automatically;
+     keep this subtle or disable it to avoid doubling the highlight. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="specGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="06-foreground-specular">
+    <g transform="rotate(-22 380 300)">
+      <ellipse cx="380" cy="300" rx="360" ry="210" fill="url(#specGrad)"/>
+    </g>
+  </g>
+</svg>

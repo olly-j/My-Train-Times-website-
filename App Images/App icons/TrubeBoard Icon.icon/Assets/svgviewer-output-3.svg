@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TubeBoard layer 05 — warm accents: abstract amber "arrivals" strip on the cab door
+     (below the window, no text); two clean flat oval headlamps (no gradient/glow) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="boardGrad" x1="0" y1="562" x2="0" y2="584" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#FF9F22"/>
+    </linearGradient>
+    <radialGradient id="boardGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFC152" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFC152" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="05-train-lights">
+ 
+    <rect x="454" y="562" width="116" height="22" rx="11" fill="url(#boardGrad)"/>
+    <ellipse cx="388" cy="682" rx="27" ry="22" fill="#FFB347"/>
+    <ellipse cx="636" cy="682" rx="27" ry="22" fill="#FFB347"/>
+  </g>
+</svg>

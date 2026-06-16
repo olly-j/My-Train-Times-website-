@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TubeBoard layer 04 — windows: tall central cab-door window flanked by two side
+     windows tucked under the domed shoulders, with a clean double glass glint -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="winGrad" x1="0" y1="360" x2="0" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1B3654"/>
+      <stop offset="1" stop-color="#091826"/>
+    </linearGradient>
+  </defs>
+  <g id="04-train-windows">
+    <rect x="346" y="372" width="80" height="126" rx="24" fill="url(#winGrad)"/>
+    <rect x="598" y="372" width="80" height="126" rx="24" fill="url(#winGrad)"/>
+    <rect x="452" y="360" width="120" height="180" rx="26" fill="url(#winGrad)"/>
+    <!-- clean double glass glint on the central window (light from upper-left) -->
+    <polygon points="480,372 502,372 474,528 454,528" fill="#FFFFFF" fill-opacity="0.18"/>
+    <polygon points="512,372 524,372 496,528 484,528" fill="#FFFFFF" fill-opacity="0.16"/>
+  </g>
+</svg>
