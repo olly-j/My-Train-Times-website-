@@ -14,9 +14,18 @@ Important: TubeBoard is independent and must not imply official TfL affiliation.
 - `Brand-Package-Liquid-Glass/` is the structured brand package/archive with matching exported assets and package notes.
 - `01-App-Icon/`, `02-Brand/`, `04-App-Store-Screenshots/`, `05-Social-Ads/`, `06-Press-Kit/`, and `07-Docs/` contain launch-ready asset exports and support docs.
 
+## Repository Relationship
+
+The iOS app lives in a separate repository: `olly-j/My-Train-Times` (locally `~/Documents/GitHub/My Train Times`). This repo holds launch assets, and the production website/backend lives in the `03-Website/` submodule backed by a third repository, `olly-j/tubeboard.co.uk`. Changes that affect both the app and the site (for example privacy-policy wording, support copy, or the Live Activity API contract) must be kept in sync across repos — see `docs/website-repo-and-deploy.md` in the app repo for the end-to-end update procedure.
+
 ## Production Safety
 
 Production website and backend changes should be made inside `03-Website/`, then tested with `npm test` from that directory before deploying with `flyctl deploy`.
+
+Publishing requires BOTH steps — a GitHub push alone does not update the live site:
+
+1. Commit inside `03-Website/`, push its branch to `olly-j/tubeboard.co.uk`, and update the submodule pointer in this repo.
+2. Deploy from inside `03-Website/` with `flyctl deploy --remote-only` (Fly.io app `tubeboard-co-uk`). There is no push-triggered auto-deploy.
 
 The Fly service stores Live Activity runtime data on the Fly volume at `/data/live-activities.json`. Do not copy, delete, or replace that volume data during asset cleanup.
 
