@@ -1,82 +1,46 @@
 # TubeBoard Website Brief
 
+Status: implemented release direction, 24 July 2026.
+
 ## Objective
 
-Convert London Tube users from curiosity to launch interest by showing TubeBoard as a premium, fast, independent live-arrivals app with a distinctive platform-board interface.
+Explain TubeBoard as a focused live-departure utility for iPhone and iPad, show the implemented app clearly, and make the Free/Premium split easy to understand before the App Store listing is public.
 
-## Audience
+## Product Truth
 
-- London commuters checking regular routes.
-- iPhone users who prefer focused single-purpose utilities.
-- Visitors who already know a station and need live arrivals.
-- Reviewers and press evaluating the app’s trustworthiness.
+- Title: **TubeBoard: Live Departures**
+- Positioning: **Your station. Your platform. Your next train.**
+- Free: live boards, search, Nearby Station, three recents, one favourite, Simple and Detailed modes, automatic refresh and three Live Activity sessions.
+- Premium: unlimited favourites and Live Activities, Dynamic Island and StandBy, Home/Lock Screen widgets, Time to Leave, and platform headers coloured by Tube line.
+- UK pricing: £1.99 monthly; £9.99 yearly with a 7-day trial and Family Sharing; £24.99 lifetime with Family Sharing.
+- The former four-theme offer is retired and must not appear.
+- The public App Store URL is not yet verified, so the release CTA remains “coming soon”.
 
-## Value Proposition
+## Experience Principles
 
-The live Tube board in your pocket: open favourite stations, read live countdowns, and decide whether to go, wait, or change.
-
-## Visual System
-
-Deep black transport board stage, amber/yellow live signal, cool Liquid Glass chrome, line-colour traces, LED dot details, and clear board rows. The site should feel like a polished iOS product surface, not a generic SaaS landing page.
+- Light by default; dark only where the real board or Premium comparison benefits from it.
+- Real app captures are the visual evidence. Do not invent device UI or roadmap features.
+- Use the system font stack. Do not ship the unverified London Underground webfont.
+- Use journey-led page structure, ruled lists and comparison tables rather than generic card grids.
+- No decorative gradients, glass panels, blobs, fake metrics, tickers or universal scroll animation.
+- Accessibility: semantic headings, 44px targets, visible focus, reduced motion, labelled colour states and no horizontal page overflow from 320px.
 
 ## Page Structure
 
-1. Hero with app name, promise, CTA, and live board demo.
-2. App Store CTA/waitlist state.
-3. Live board demo.
-4. Favourite station paging.
-5. Station search.
-6. Line statuses.
-7. Simple/Detailed mode.
-8. iOS ecosystem features only if implemented; otherwise roadmap section.
-9. Privacy and data source.
-10. FAQ.
-11. Support.
-12. Footer.
+1. Product-led hero with real live board.
+2. Live-board explanation and product principles.
+3. Station search.
+4. Simple/Detailed modes.
+5. Favourites and Time to Leave.
+6. Live Activities, Dynamic Island, StandBy and widgets.
+7. Exact Premium features and pricing.
+8. Privacy, trust and FAQ.
+9. Support and legal attribution.
 
-## Technical Requirements
+## Technical Release
 
-- Static HTML/CSS is acceptable for launch.
-- Responsive from 360px mobile to wide desktop.
-- Use semantic HTML.
-- Use responsive images with explicit dimensions where possible.
-- Avoid external scripts unless analytics are approved.
-- Add final App Store URL when available.
-
-## Accessibility Requirements
-
-- Strong keyboard focus states.
-- WCAG AA contrast for body copy and controls.
-- Reduced motion support.
-- Do not rely on line colours without labels.
-- Avoid fixed viewport-height hero that hides next content on small screens.
-
-## SEO Requirements
-
-SEO title: TubeBoard - Live Tube arrivals for iPhone
-
-SEO description: TubeBoard is an independent iPhone app for checking live London Tube arrivals in a fast platform-board view with favourite stations, line colours, and seconds-based countdowns.
-
-Open Graph title: TubeBoard - The live Tube board in your pocket
-
-Open Graph description: A focused London Tube arrivals app for iPhone, built around live countdowns and favourite stations.
-
-## Analytics Events
-
-- `cta_app_store_click`
-- `cta_waitlist_click`
-- `feature_live_board_view`
-- `feature_favourites_view`
-- `faq_open`
-- `support_click`
-- `privacy_click`
-
-## Required Assets
-
-- Icon v2 PNG/SVG.
-- Website hero v2 2400x1400.
-- Open Graph v2 1200x630.
-- Real app screenshot for board state.
-- Real app screenshot for station picker.
-- Real app screenshot for settings/about trust.
-
+- Existing Node/Fly service remains the production architecture because it also hosts the Live Activity API and worker.
+- Apex `https://tubeboard.co.uk` is canonical; `www` redirects with 308.
+- HTML revalidates; versioned assets are immutable.
+- Security headers, branded 404, WebP imagery, canonical support/privacy routes and `/healthz` are required.
+- Inactive Live Activity records are physically deleted after the 24-hour retention window; active registrations last no more than eight hours.

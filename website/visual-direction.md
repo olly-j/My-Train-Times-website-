@@ -1,57 +1,35 @@
 # TubeBoard Website Visual Direction
 
-## Background Layers
+Status: implemented release direction, 24 July 2026.
 
-- Solid board black base.
-- Fine horizontal board lines at very low opacity.
-- Abstract route/circuit traces in cool glass blue and muted line colours.
-- Localized amber glow near live board rows.
-- No decorative blobs or generic gradients.
+## Foundation
 
-## Hero
+The website is light by default: neutral near-white page, black type, quiet grey rules and real app imagery. The app’s dark board supplies contrast where product evidence is needed. Premium may use a local dark section; the overall site must not become dark by default.
 
-Hero should show the product immediately: app name, promise, live board demo, and App Store/waitlist CTA in the first viewport. The next section should peek into view on desktop and mobile.
+## Human-Designed Character
 
-Use a glass hero panel only for functional grouping. Do not place the whole page inside nested cards.
+- Left-aligned, journey-led editorial rhythm rather than a centred “AI landing page” hero.
+- Purposeful asymmetry and varied section structures.
+- Ruled transport-information lists, facts and comparison tables instead of card soup or bento grids.
+- System typography. Board-specific visual character comes from the screenshots, not a novelty display font.
+- One clear primary action at a time.
+- Concrete copy using real station, platform, refresh and entitlement details.
 
-## Device Mockups
+## Avoid
 
-Use a dark iPhone-like frame with a real or faithful app screen. Screen content should be crisp; glass effects belong to the frame and surrounding surface, not the live text.
+- Cream-and-rust lifestyle styling, blobs, glows, gradients and glass cards.
+- Floating phone mockups, fake dashboards, invented Apple surfaces or generated UI.
+- Symmetric three-tier SaaS price cards, fake testimonials, metrics and badges.
+- Eyebrow labels repeated as decoration, marquees, scroll-reveal animation and parallax.
+- Full-page dark mode by default.
 
-## Board Glow
+## Product Imagery
 
-Amber glow should sit behind active rows and countdowns. Keep it restrained enough that text remains sharp.
+Use the current station picker, live board, Detailed board and Time to Leave captures. Do not use the removed themes screenshot or the old “four themes” marketing image. A Premium screenshot may support pricing but cannot replace the complete written feature list.
 
-## Line-Colour Trails
+## Responsive and Accessible Behaviour
 
-Use thin traces, small station nodes, or badges. Do not build a roundel, official map, or official signage imitation.
-
-## Train-Light Dots
-
-Use two to five small amber dots as motion/energy accents. Dots should align to traces or board rows.
-
-## Screenshot Placement
-
-Hero: one large phone or board demo.
-
-Feature sections: smaller screen fragments paired with concise copy.
-
-Trust section: no fake UI; use data source and independent status copy.
-
-## Responsive Behaviour
-
-- Desktop: two-column hero, dense feature grid, phone mockup visible.
-- Tablet: hero still two-column if space allows; reduce headline scale.
-- Mobile: single-column hero, phone mockup below CTA, sticky nav simplified.
-
-## Hover/Tap Animation
-
-- Buttons lift 1-2px with glass highlight.
-- Board rows can glow subtly on hover.
-- Background traces can drift slowly.
-- Respect `prefers-reduced-motion`.
-
-## Dark/Light Mode
-
-Primary site should remain dark. A full light mode is not required for launch because the product identity is a night/platform-board system. If a light mode is added, keep live board surfaces dark.
-
+- Two-column hero where space permits; real product image remains present on mobile.
+- At 560px and below, story sections become a deliberate vertical sequence.
+- Minimum 44px interactive targets, visible focus, reduced-motion support and no horizontal page overflow at 320px.
+- Dark board screenshots retain purposeful alt text; status is never conveyed by colour alone.
