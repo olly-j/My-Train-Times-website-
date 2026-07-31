@@ -2,6 +2,10 @@
 
 Created: 2026-06-12
 
+Status: Archived package snapshot. Current working guidance lives in
+`../brand/` and `../website/`; see `../docs/README.md`. Preserve this directory
+as the dated handoff rather than updating it to match later product changes.
+
 This package upgrades TubeBoard from a starter black/amber asset set into a premium iOS Liquid Glass-inspired brand system for an independent London Tube live arrivals app.
 
 ## Contents
@@ -24,4 +28,3 @@ This package upgrades TubeBoard from a starter black/amber asset set into a prem
 - Use generated concept imagery as reference only unless cleaned into layered production art.
 - Final App Store screenshots must use implemented app states.
 - Regenerate final website hero and Open Graph images after real app screenshots are captured.
-

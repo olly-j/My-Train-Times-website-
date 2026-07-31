@@ -1,0 +1,27 @@
+name: Assets Quality
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: assets-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-assets:
+    name: Validate assets workspace
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out source and service pin
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Validate repository structure
+        run: scripts/check-assets.sh
