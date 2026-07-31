@@ -43,5 +43,11 @@ Delivery Project.
   service remote and the central Issue records whether it is source-ready or
   deployed.
 - Never deploy the service or alter App Store Connect from this repository.
+- Follow `.github/SECURITY.md` for vulnerabilities or credential exposure. Use
+  private reporting, rotate credentials before source cleanup, and link a
+  central `TB-NNN` without copying sensitive evidence into it.
+- Dependency alerts, secret scanning, push protection, and private
+  vulnerability reporting are enabled. Do not enable automated update PRs or
+  add security workflows without a central owner-approved impact assessment.
 - Use PRs, squash one coherent work item, pass the lightweight Assets Quality
   check, and delete merged branches.
