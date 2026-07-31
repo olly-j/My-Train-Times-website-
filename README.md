@@ -4,11 +4,17 @@ Production starter assets for the TubeBoard iOS launch.
 
 Includes app icon exports, SVG mark/logo, Open Graph/hero graphics, App Store screenshot templates, social graphics, copy pack, press kit, asset inventory, and legal trust notes.
 
+Read `AGENTS.md` before contributing and `docs/README.md` for the active
+source-of-truth map. Product work and owner decisions are tracked centrally in
+`olly-j/My-Train-Times`; this repository does not maintain another backlog.
+
 Important: TubeBoard is independent and must not imply official TfL affiliation. Do not use the TfL roundel without permission.
 
 ## Workspace Layout
 
-- `03-Website/` is the production website and Live Activity backend service. It is a git submodule backed by `olly-j/tubeboard.co.uk` and deployed to Fly.io from that directory.
+- `03-Website/` pins an approved `olly-j/tubeboard.co.uk/main` source commit.
+  Fly production revision is verified separately through `/healthz`; the
+  gitlink alone does not prove deployment.
 - `brand/` contains the active brand, launch, legal, press, production, and quality-review working docs.
 - `website/` contains the active website planning, copy, and visual-direction working docs.
 - `Brand-Package-Liquid-Glass/` is the structured brand package/archive with matching exported assets and package notes.
@@ -24,8 +30,11 @@ Production website and backend changes should be made inside `03-Website/`, then
 
 Publishing requires BOTH steps — a GitHub push alone does not update the live site:
 
-1. Commit inside `03-Website/`, push its branch to `olly-j/tubeboard.co.uk`, and update the submodule pointer in this repo.
-2. Deploy from inside `03-Website/` with `flyctl deploy --remote-only` (Fly.io app `tubeboard-co-uk`). There is no push-triggered auto-deploy.
+1. Complete and merge the service PR into `olly-j/tubeboard.co.uk/main`, then
+   update this repository's submodule pointer through its own PR.
+2. Only after explicit owner authorization, deploy from service `main` with
+   `scripts/deploy-production.sh --confirm-production`. There is no
+   push-triggered auto-deploy.
 
 The Fly service stores Live Activity runtime data on the Fly volume at `/data/live-activities.json`. Do not copy, delete, or replace that volume data during asset cleanup.
 
