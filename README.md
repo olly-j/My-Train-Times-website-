@@ -14,7 +14,8 @@ Important: TubeBoard is independent and must not imply official TfL affiliation.
 
 - `03-Website/` pins an approved `olly-j/tubeboard.co.uk/main` source commit.
   Fly production revision is verified separately through `/healthz`; the
-  gitlink alone does not prove deployment.
+  gitlink alone does not prove deployment. The assets check fetches complete
+  `main` ancestry before validating the pin, including in shallow CI clones.
 - `brand/` contains the active brand, launch, legal, press, production, and quality-review working docs.
 - `website/` contains the active website planning, copy, and visual-direction working docs.
 - `Brand-Package-Liquid-Glass/` is the structured brand package/archive with matching exported assets and package notes.
@@ -27,6 +28,10 @@ The iOS app lives in a separate repository: `olly-j/My-Train-Times` (locally `~/
 ## Production Safety
 
 Production website and backend changes should be made inside `03-Website/`, then tested with `npm test` from that directory before deploying with `flyctl deploy`.
+
+Repository checks reject tracked environment variants such as `.env.local`
+and `.env.production` as well as keys, certificates, runtime data, and personal
+workspace files. `.env.example` remains the only allowed environment template.
 
 Publishing requires BOTH steps — a GitHub push alone does not update the live site:
 
