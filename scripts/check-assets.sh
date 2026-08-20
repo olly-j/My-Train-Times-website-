@@ -36,7 +36,15 @@ done
   exit 1
 }
 
-git -C 03-Website merge-base --is-ancestor HEAD origin/main || {
+if [[ "$(git -C 03-Website rev-parse --is-shallow-repository)" == "true" ]]; then
+  git -C 03-Website fetch --quiet --no-tags --unshallow origin \
+    +refs/heads/main:refs/remotes/origin/main
+else
+  git -C 03-Website fetch --quiet --no-tags origin \
+    +refs/heads/main:refs/remotes/origin/main
+fi
+
+git -C 03-Website merge-base --is-ancestor HEAD refs/remotes/origin/main || {
   echo "The pinned service commit is not available from origin/main." >&2
   exit 1
 }
@@ -46,7 +54,9 @@ if ! grep -Fq 'Status: Archived package snapshot' Brand-Package-Liquid-Glass/REA
   exit 1
 fi
 
-if git ls-files | grep -Eq '(^|/)(\.env|live-activities\.json)$|\.p8$|\.pem$|\.key$|xcuserdata|\.DS_Store$'; then
+if git ls-files \
+  | grep -Ev '(^|/)\.env\.example$' \
+  | grep -Eq '(^|/)\.env($|\.)|(^|/)live-activities\.json$|\.p8$|\.pem$|\.key$|(^|/)xcuserdata(/|$)|(^|/)\.DS_Store$'; then
   echo "Sensitive or personal workspace material is tracked." >&2
   exit 1
 fi
