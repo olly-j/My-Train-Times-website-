@@ -1,110 +1,64 @@
 # TubeBoard Press Kit
 
-## One-Paragraph Summary
+Status: v1.2 release materials prepared for owner review, 6 September 2026.
+Publication is held until App Store availability is verified. The app repository's
+submission record remains authoritative for the actual public release.
 
-TubeBoard is an independent iPhone app for checking live London Tube arrivals in a focused platform-board interface. Built for quick station checks, it combines live arrival data, favourite stations, line-colour accents, grouped directions, and seconds-based countdowns so commuters can see the next train without opening a full journey planner.
+## Summary
 
-## Factsheet
+TubeBoard is Oliver Jeffers's independent London departure-board app. It brings
+Underground, Elizabeth line and London Overground predictions into a familiar
+platform-board view on iPhone and iPad. Version 1.2 adds all six named Overground
+lines, Premium Follow a Train and additional station-board layouts, new Watch
+widgets, clearer disruption widgets and a shorter introduction.
 
-- Product: TubeBoard.
-- Platform: iPhone.
-- Category: Travel / Navigation.
-- Status: Launch preparation.
-- Data: TfL Open Data where available.
-- Affiliation: Independent; not affiliated with, endorsed by, or sponsored by Transport for London.
-- Core use case: quick live arrivals for selected Tube stations.
+## Product facts
 
-## Feature List
+- Name: TubeBoard: Live Departures.
+- Developer: Oliver Jeffers, independent developer.
+- Core purpose: quickly check departures when you already know your station.
+- iOS release candidate: 1.2, build 20260905103957.
+- Platforms: iPhone and iPad, with a Premium Apple Watch companion; native
+  Apple Vision Pro has its own build and release record.
+- No TubeBoard account or adverts. Optional service features use the data
+  described in the canonical Privacy Policy.
+- Data: TfL Open Data, subject to source availability and prediction changes.
 
-- Live Tube arrivals where data is available.
-- Platform-board inspired interface.
-- Favourite stations.
-- Direction and platform grouping.
-- Line-colour accents.
-- Seconds-based countdowns.
-- Simple and Detailed display modes.
-- Data source and independence disclosure.
+## New in 1.2
 
-## Founder/Developer Note Placeholder
+London Overground coverage adds Lioness, Mildmay, Windrush, Weaver, Suffragette
+and Liberty. Basic departures remain free.
 
-“TubeBoard started from a very small commuter frustration: I did not always need a route planner, I needed the board. The app is designed around that quick check: open, read, decide, go.”
+Premium Follow a Train shows useful route context with live progress when the
+provider supplies reliable information. Shared links carry public train context,
+not the user's precise location or saved stations. Contextual route stations
+without predictions do not prove that a particular train calls there.
 
-## Press Release
+Premium station layouts offer Next departures within each direction and
+By destination, alongside the familiar free By platform view. The Watch widget
+can use a favourite and platform. Redesigned disruption widgets distinguish
+fresh, partial, stale and offline information.
 
-### TubeBoard Brings A Live Platform-Board Style Tube Arrivals App To iPhone
+Existing monthly, yearly and Lifetime Premium purchases include the new paid
+features. There is no new product identifier or price change in this release.
 
-London, UK - TubeBoard, an independent iPhone app for London Tube users, is preparing to launch with a focused way to check live arrivals from favourite stations.
+## Images
 
-Instead of behaving like a full journey planner, TubeBoard is built around the moment commuters check the platform board. The app shows live arrivals in a clear board-style interface with line-colour accents, direction grouping, and seconds-based countdowns.
+Current-source captures and composed images are indexed in
+[the v1.2 media record](../04-App-Store-Screenshots/v1.2-20260905103957.md).
+Historical release images and the June brand-package snapshot are preserved.
+Only reviewed customer-facing PNG/WebP exports belong in a press download.
+Do not distribute fonts, simulator logs, signing material or private records.
 
-TubeBoard is designed for regular journeys, station changes, and quick checks before heading underground. It uses TfL Open Data where available and clearly states that it is independently made and not an official TfL product.
+## Contact and links
 
-Launch assets, screenshots, and review access will be available before release.
+- Product: https://tubeboard.co.uk
+- App Store: https://apps.apple.com/gb/app/tubeboard-live-departures/id6779771046
+- Support and media enquiries: support@tubeboard.co.uk
+- Privacy: https://tubeboard.co.uk/privacy
 
-## Media Pitch Email
+## Attribution
 
-Subject: Independent iPhone app turns live Tube arrivals into a platform board
-
-Hi [Name],
-
-I’m preparing to launch TubeBoard, an independent iPhone app for London Tube users who want quick live arrivals without opening a full route planner.
-
-The app is built around a platform-board interface: favourite stations, live countdowns, line-colour accents, and direction grouping. It is designed for the small but frequent commuter moment of checking whether to leave, wait, or change.
-
-Would you be interested in early access or launch materials?
-
-Best,
-[Name]
-
-## Reviewer Outreach Email
-
-Subject: Early access to TubeBoard for iPhone
-
-Hi [Name],
-
-I’d love to share early access to TubeBoard, an independent live Tube arrivals app for iPhone. It focuses on quick station checks with a clear platform-board design, favourite stations, and seconds-based countdowns.
-
-TubeBoard is not affiliated with TfL and uses TfL Open Data where available. I can provide TestFlight access, screenshots, icon files, and a short app preview when ready.
-
-Best,
-[Name]
-
-## Screenshots List
-
-- Live arrivals board.
-- Station picker/search.
-- Favourite station paging.
-- Direction/platform grouping.
-- Simple/Detailed mode.
-- Line status/data source screen.
-- About/privacy screen.
-
-## Brand Assets List
-
-- App icon v2 master SVG.
-- App icon export set.
-- Horizontal logo.
-- Brand mark.
-- Website hero.
-- App Store screenshot templates.
-- Social launch graphics.
-- Press screenshots.
-
-## Pricing/Monetization Copy
-
-Owner decision required. Do not reference subscriptions, premium features, trials, or one-time purchase until the product model is confirmed.
-
-## Data Source/TfL Attribution Copy
-
-Suggested baseline: “TubeBoard is an independent app and is not affiliated with, endorsed by, or sponsored by Transport for London. Live arrival information is powered by TfL Open Data where available.”
-
-Confirm final wording against TfL Open Data terms before launch.
-
-## Privacy Statement
-
-Suggested baseline: “TubeBoard is designed for quick station checks. Final privacy wording will reflect the app’s actual analytics, crash reporting, data storage, and location behavior.”
-
-## Boilerplate
-
-TubeBoard is an independent iPhone app for London Tube arrivals, built around a fast platform-board interface for regular station checks. It is designed to make live arrival information easier to read at a glance while remaining clear about its independent status and data source.
-
+Powered by TfL Open Data. Contains OS data © Crown copyright and database rights
+2016 and Geomni UK Map data © and database rights 2019. TubeBoard is not affiliated
+with, endorsed by or sponsored by Transport for London.

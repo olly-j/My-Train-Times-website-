@@ -1,0 +1,30 @@
+{
+  "marketingVersion": "1.2",
+  "build": "20260905103957",
+  "sourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+  "platform": "VISION_OS",
+  "buildID": "b1c7b8d3-2acd-4020-86b1-87d55ae5e1cc",
+  "captureMethod": "Native visionOS 26.5 Simulator BC56BB34-DF39-4732-8C21-23BC3FC6435E; existing DEBUG spatial-scene environment; no composited product UI.",
+  "screenshots": [
+    {
+      "path": "vision-pro/01-spatial-board.png",
+      "sha256": "88290021d17f4d245bb9ecab90409492b4f76411e91f0456adab3cbd3dff7d96",
+      "rawSHA256": "b09e0e6d45e65c093018b8750975583090f1137e42d15297ea6de24e6f6701f0",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "vision-pro/02-spatial-map.png",
+      "sha256": "4f0c4791a8e5e44748392b125034cf385825c67915b0477ff8059815aec45afb",
+      "rawSHA256": "9c94049e03dbd140ad8c359762202ee2916cccaa722e203beb9b4ab7c531048a",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    }
+  ]
+}

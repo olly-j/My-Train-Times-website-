@@ -27,7 +27,9 @@ The iOS app lives in a separate repository: `olly-j/My-Train-Times` (locally `~/
 
 ## Production Safety
 
-Production website and backend changes should be made inside `03-Website/`, then tested with `npm test` from that directory before deploying with `flyctl deploy`.
+Production website and backend changes should be made inside `03-Website/`, then verified with `npm run check`. Use only the guarded
+`scripts/deploy-production.sh --confirm-production` after the separate
+production authorization and release checks; do not use a raw deploy command.
 
 Repository checks reject tracked environment variants such as `.env.local`
 and `.env.production` as well as keys, certificates, runtime data, and personal
@@ -57,4 +59,14 @@ Key production files:
 - `website/website-copy.md`
 - `website/visual-direction.md`
 
-Treat the original assets as v1/starter assets. Use the v2 icon and Liquid Glass package as the current creative direction, then capture real app screenshots before final App Store exports.
+Treat the original assets as v1/starter assets. Use the icon and interface
+from the selected app source for release exports. The packaged icon experiments
+and Liquid Glass reference do not independently authorize a new app icon.
+Preserve the accepted binary while preparing its actual launch screenshots.
+
+## v1.2 launch materials
+
+The [current media record](04-App-Store-Screenshots/v1.2-20260905103957.md)
+contains the actual accepted-source capture inventory. The [press kit](brand/press-kit.md)
+and staged website copy replace earlier launch-preparation placeholders.
+The package is prepared for owner review and does not establish public release.

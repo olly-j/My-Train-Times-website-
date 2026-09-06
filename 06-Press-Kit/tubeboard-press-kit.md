@@ -1,5 +1,9 @@
-# TubeBoard Press Kit
+# TubeBoard press materials
 
-TubeBoard is an independent iPhone app for checking live London Tube arrivals in a platform-board inspired interface. Built for quick station checks, it combines live arrival data, favourite stations, line colour accents, platform and direction grouping, and seconds-based countdowns in a focused commuter-friendly design.
+The current [press kit](../brand/press-kit.md) and
+[v1.2 image record](../04-App-Store-Screenshots/v1.2-20260905103957.md) supply
+release-specific copy, source evidence and reviewed media. They are staged for
+owner review; a prepared package is not evidence of public App Store release.
 
-Press headline: TubeBoard brings a live platform-board style Tube arrivals app to iPhone.
+The June package remains historical. No account, pricing, affiliation, privacy
+or platform claims should be copied from its old launch placeholders.
