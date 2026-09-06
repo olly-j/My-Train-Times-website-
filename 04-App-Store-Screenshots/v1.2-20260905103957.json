@@ -1,0 +1,218 @@
+{
+  "marketingVersion": "1.2",
+  "build": "20260905103957",
+  "sourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+  "screenshots": [
+    {
+      "path": "iphone-6.9/01-live-board.png",
+      "sha256": "10d76ca110f80fc929c33039332c3c017f4d9833b7d0175d7d7438b7e2386ddf",
+      "rawPath": "iphone-6.9/01-live-board.png",
+      "rawSHA256": "c744f8e9d316fa557ed40bec3db36ab82660ea6ec014ead0b26127c73d2f2b7d",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/02-follow-train.png",
+      "sha256": "69fe4ac55a5be4dea2f5fbde968f7fc779be7d93ee0d76007c78159799237e6f",
+      "rawPath": "iphone-6.9/02-follow-train.png",
+      "rawSHA256": "977421dee030e1e1bbee8525d61b7bc92a3e93be9387bf46c72cbbad6e9d554f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/03-next-departures.png",
+      "sha256": "db3c4390d7be5b9f8330eaec2a900ed7b010a807651addd0054c075563af79c5",
+      "rawPath": "iphone-6.9/03-next-departures.png",
+      "rawSHA256": "7237a6fedb944a715260ea247dd2e1a16fbd5d13a4a01e2d854c50fd51bd3d78",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/04-overground.png",
+      "sha256": "3d89782d3a6a9f150e8c716bf4315e2660fc5431bcee885759484a4b358bce6e",
+      "rawPath": "iphone-6.9/04-overground.png",
+      "rawSHA256": "9472cb0e4c9e095e9f3b9c95d67e5296bb5187fa29785f48961183ec6a6577d1",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/05-by-destination.png",
+      "sha256": "bcf749b72ed3596926f07be824028014fb1ba23deef4d67482394c393839dc44",
+      "rawPath": "iphone-6.9/05-by-destination.png",
+      "rawSHA256": "18c24137311a8fe7f50f8da571788fd02ea696660503dc126baf8a09df320317",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/06-system-board.png",
+      "sha256": "3998e66978c92bb660497358c0f7c74dee7d54a1414bc4cbcd85b8b965d79755",
+      "rawPath": "iphone-6.9/06-system-board.png",
+      "rawSHA256": "f5e4c0886327389f214e96cc9ba62af8930b5127baeddcd10001560a3309e199",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/07-disruption-widget.png",
+      "sha256": "0de991ab8b3672108e5dc952e8c369d69d95fc9620c2e1125f15dc781b3feb88",
+      "rawPath": "iphone-6.9/07-disruption-widget.png",
+      "rawSHA256": "f72b462cec99ae5fac95b84efa6adf5d605333f11f150c18982014f909cd34db",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/01-live-board.png",
+      "sha256": "e285ce30cd7f045e8ff185e2a39ec820246c072c0d619e011a2c061fa5acf63f",
+      "rawPath": "ipad-13/01-live-board.png",
+      "rawSHA256": "e6836a231d325ffad79452491cdf66a03bfd47c114930bc37277e97b5b082d8f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/02-follow-train.png",
+      "sha256": "3f320425859d4dbe983ccc0ea5517d1dd5438865bb6f1d297133beab6d7e8ba1",
+      "rawPath": "ipad-13/02-follow-train.png",
+      "rawSHA256": "692fe725426b5b30990e3c63c3a0e9be193778133ea626ef15f1e24c4af4e24a",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/03-next-departures.png",
+      "sha256": "e6987152d500553fb1e7fc6d5e7d6741ce3a27cc60b5ff5583b89291f560e2ac",
+      "rawPath": "ipad-13/03-next-departures.png",
+      "rawSHA256": "9996e2341b3edf8b3930fb3e870c52f3dbb74cb05169c26752131c8354c1a9b6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/04-overground.png",
+      "sha256": "f21c8b186f3b38da8c053a3d3403e7a5a81d2591805db6da13fb5bf50ebac02c",
+      "rawPath": "ipad-13/04-overground.png",
+      "rawSHA256": "2376b29d63ca40628d26fb0eaf873e405ea121af90d768f140ccff83a5c06f5f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/05-by-destination.png",
+      "sha256": "cbbea5d28de96dca5d73ba53a6641d44f7b474e5fbfa6b7948284aef5eece0ec",
+      "rawPath": "ipad-13/05-by-destination.png",
+      "rawSHA256": "00230fc39697ff4dc23752b620862918e6a8fd4fee48ad3eaef0c7c9f503cfca",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/06-system-board.png",
+      "sha256": "2e98631ad00d11d3f1c60877a2b4b1773a835f9a0a3034108cfdffac0df6e704",
+      "rawPath": "ipad-13/06-system-board.png",
+      "rawSHA256": "33853028ba0cf8e96fea046a0f5afa7e335fa4cff8ea86d3b1365d4de05ddadd",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/07-disruption-widget.png",
+      "sha256": "4832cec9d357ae6a048dd7b6c83b4a272d29e08da6803acab36d7d03977bdbcf",
+      "rawPath": "ipad-13/07-disruption-widget.png",
+      "rawSHA256": "e9502f557521b77f2eeeec2c389e22201c2e747815577d5df8215f29354e82d6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "watch-46/02-departures.png",
+      "sha256": "4f57e565b6084437c3ef51d080531556b683c857351f6f26205e2e7b4e0f53e6",
+      "rawPath": "watch-46/02-departures.png",
+      "rawSHA256": "244cffd2e5d6fc03129a4126bc02400bfc3b7967e2bc20e13696c3cce286eb1f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "Native watchOS 26.5 simulator B84B88E5-CBA2-4572-8B3B-EDC979B2FFF1; accepted app source; existing DEBUG demo/entitlement flags; native simctl capture.",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    },
+    {
+      "path": "watch-46/03-stations.png",
+      "sha256": "b5cbec2f9696ac767d5415d37aee83bb2c798a1751ca4add81a3e638d8673e9f",
+      "rawPath": "watch-46/03-stations.png",
+      "rawSHA256": "3b3bd5a00836bfc59a9ce1a7682739f43041a73f0fe885c3e5eec9bcf253135a",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "Native watchOS 26.5 simulator B84B88E5-CBA2-4572-8B3B-EDC979B2FFF1; accepted app source; existing DEBUG demo/entitlement flags; native simctl capture.",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT",
+        "reviewedAt": "2026-09-06T10:44:08.099309+00:00"
+      }
+    }
+  ],
+  "captureMethod": "Native Simulator captures of accepted app runtime source using existing deterministic DEBUG fixtures; capture-only UITest orchestration does not change app runtime.",
+  "curation": "Seven iPhone, seven iPad and two native Watch app screenshots. No fabricated Watch-widget frame. Native visionOS images are separately recorded.",
+  "draftComparison": "App Store contains same-named processed sets; exact uploaded-file checksum equivalence is not asserted by this local media record."
+}
