@@ -1,39 +1,52 @@
 # TubeBoard Website Copy
 
-Status: production copy source, 24 July 2026. The implemented pages in `03-Website` are authoritative.
+Status: Active source map for the prepared v1.2 launch
 
-## Core Positioning
+Authoritative for: locating website copy and its release boundary
 
-Product name: **TubeBoard: Live Departures**
+Owner: Product and design owner
 
-Headline: **Your station. Your platform. Your next train.**
+Last verified: 2026-09-06
 
-Description: Live London Tube departures, grouped the way you read them at the station. Open the board, see every second count down, and get moving.
+Review trigger: website implementation, accepted app features, imagery or public availability changes
 
-Release state: Coming soon to the App Store for iPhone and iPad.
+## Source of truth
 
-## Free
+The implemented `index.html` and `support.html` in `olly-j/tubeboard.co.uk`
+are the editable website copy authority. Continue the existing TB-088 website
+PR rather than maintaining a second changing copy pack in this repository.
 
-Live departures and station search; automatic refresh and pull-to-refresh; line status; Simple and Detailed boards; Nearby Station; three recents; one favourite; three Live Activity sessions.
+Current product name: **TubeBoard: Live Departures**.
+Prepared v1.2 headline: **Your next train. And the stops ahead.**
 
-## TubeBoard Premium
+## Approved narrative
 
-Unlimited favourites; unlimited Live Activities with Dynamic Island and StandBy; Home and Lock Screen widgets; Time to Leave; platform headers coloured by Tube line.
+The free live board covers the Underground, Elizabeth line and six named
+London Overground lines. Premium adds Follow a Train, direction-aware Next
+departures and By destination layouts, together with the existing paid
+surfaces and new Watch widgets. Existing purchases retain access.
 
-Prices:
+Route context and live-train proof remain distinct. Shared links contain
+public train context, not a person's precise location or saved stations.
+Never promise continuous GPS tracking, browser live tracking, reliable next
+workings at termini or a redesigned global station search that has not shipped.
 
-- Monthly: £1.99 per month.
-- Yearly: £9.99 per year, including a 7-day free trial and Family Sharing.
-- Lifetime: £24.99 one-off, including Family Sharing.
+## Media and support
 
-Subscriptions renew until cancelled. UK launch pricing is shown; App Store prices can vary by region.
+Use reviewed current captures for the homepage, feature sections and sharing
+preview. Update PNG/WebP files, dimensions, alternative text, preload and
+Open Graph/Twitter references together. Preserve earlier assets as history.
 
-## Trust
+Support must explain Follow/data gaps, train sharing, station layouts,
+Overground selection, native Watch widgets, restoration and truthful widget
+freshness. Use the canonical privacy notice, with no new tracker or consent
+mechanism introduced by this marketing work.
 
-No TubeBoard account. No adverts. No analytics or cross-app tracking. Nearby Station matching, favourites, recents and display choices stay on-device. Live Activities use short-lived service registrations and Apple Push Notification service.
+## Release boundary
 
-TubeBoard uses TfL Open Data where available and is independent. It is not affiliated with, endorsed by or sponsored by Transport for London.
-
-## Do Not Publish
-
-Do not describe four board themes, Apple Watch, Siri, push disruption alerts, a Tube map, Apple TV, Vision Pro or any other roadmap placeholder as shipped.
+TubeBoard already has a public app. The new v1.2 material is prepared for
+owner review; its existence in Git does not establish App Store availability.
+Deploy the v1.2 launch pages only after the matching public release is verified.
+Source, approved assets pin and production revision are separate records in
+the central app workspace. Use the existing guarded deployment procedure.
+Do not deploy through a raw `fly deploy` or overwrite the production volume.

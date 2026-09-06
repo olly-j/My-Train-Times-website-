@@ -1,6 +1,6 @@
 # TubeBoard Launch Assets
 
-Production starter assets for the TubeBoard iOS launch.
+Current TubeBoard media sources and versioned launch assets. Earlier starter exports remain historical references.
 
 Includes app icon exports, SVG mark/logo, Open Graph/hero graphics, App Store screenshot templates, social graphics, copy pack, press kit, asset inventory, and legal trust notes.
 
@@ -27,7 +27,7 @@ The iOS app lives in a separate repository: `olly-j/My-Train-Times` (locally `~/
 
 ## Production Safety
 
-Production website and backend changes should be made inside `03-Website/`, then tested with `npm test` from that directory before deploying with `flyctl deploy`.
+Production website and backend changes belong in the separate service repository. Run `npm run check` and use its guarded `scripts/deploy-production.sh --confirm-production` procedure from clean current `main`, after the applicable owner and release gates. A raw deploy is not the normal path.
 
 Repository checks reject tracked environment variants such as `.env.local`
 and `.env.production` as well as keys, certificates, runtime data, and personal
@@ -45,7 +45,7 @@ The Fly service stores Live Activity runtime data on the Fly volume at `/data/li
 
 ## Liquid Glass Brand Package
 
-The upgraded iOS Liquid Glass-inspired package lives in `Brand-Package-Liquid-Glass/`, with active working docs in `brand/` and `website/`.
+The June 2026 Liquid Glass package in `Brand-Package-Liquid-Glass/` is an archived snapshot. Active working guidance lives in `brand/` and `website/`.
 
 Key production files:
 - `01-App-Icon/svg/tubeboard-icon-liquid-glass-v2.svg`
@@ -57,4 +57,4 @@ Key production files:
 - `website/website-copy.md`
 - `website/visual-direction.md`
 
-Treat the original assets as v1/starter assets. Use the v2 icon and Liquid Glass package as the current creative direction, then capture real app screenshots before final App Store exports.
+Treat the original exports as starter/history assets. The app icon embedded in the accepted app build is the release authority; unselected v1.2.x concepts must not replace it. Use real accepted-source captures for the new versioned media set and retain its provenance. App Store Connect draft preparation does not establish public availability.

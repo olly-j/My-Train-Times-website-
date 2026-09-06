@@ -1,0 +1,232 @@
+{
+  "marketingVersion": "1.2",
+  "build": "20260905103957",
+  "sourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+  "screenshots": [
+    {
+      "path": "iphone-6.9/01-live-board.png",
+      "sha256": "5842989c4a20aa682e8cc5bffd333beed54bb3b2e4c28ee08437ac7ecec61c02",
+      "rawPath": "iphone-6.9/01-live-board.png",
+      "rawSHA256": "c744f8e9d316fa557ed40bec3db36ab82660ea6ec014ead0b26127c73d2f2b7d",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "c862e739-10fc-4d09-a20e-b613069d3d5d",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/02-follow-train.png",
+      "sha256": "c0971a868a4a83f9c50328f4da27f5b079d4fe0bd1f8c39bbb4e29dba611bb0d",
+      "rawPath": "iphone-6.9/02-follow-train.png",
+      "rawSHA256": "977421dee030e1e1bbee8525d61b7bc92a3e93be9387bf46c72cbbad6e9d554f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : AppStoreScreenshotTests/testCaptureV12FollowScreenshot()",
+      "appleScreenshotID": "7b034495-3b8a-49b7-b531-10de0113a6e2",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/03-next-departures.png",
+      "sha256": "3d31f575087219afd83910a2014384c7ee1846bc99a5b017403ed9fc9bff08f0",
+      "rawPath": "iphone-6.9/03-next-departures.png",
+      "rawSHA256": "7237a6fedb944a715260ea247dd2e1a16fbd5d13a4a01e2d854c50fd51bd3d78",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "cbfdd391-4669-488a-b082-f4a6f7bcf34a",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/04-overground.png",
+      "sha256": "29ba7a61ca12d69aa0f56df1468a4b60e2168268ca854eba9e1f1c3624fc1147",
+      "rawPath": "iphone-6.9/04-overground.png",
+      "rawSHA256": "9472cb0e4c9e095e9f3b9c95d67e5296bb5187fa29785f48961183ec6a6577d1",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : AppStoreScreenshotTests/testCaptureV12OvergroundScreenshot()",
+      "appleScreenshotID": "7aaace3e-bb6b-437b-839a-ab5d63ea8e55",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/05-by-destination.png",
+      "sha256": "e2efc75e833fa921d803b041db7f5273397452213afb1de890fcebda9bee342f",
+      "rawPath": "iphone-6.9/05-by-destination.png",
+      "rawSHA256": "18c24137311a8fe7f50f8da571788fd02ea696660503dc126baf8a09df320317",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "5e95978a-75d2-479a-8e39-fd307adfa923",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/06-system-board.png",
+      "sha256": "f4e3659507500e3a48f569d903b9b1585dfb94c5a9b04c3591b6a5354b22531a",
+      "rawPath": "iphone-6.9/06-system-board.png",
+      "rawSHA256": "f5e4c0886327389f214e96cc9ba62af8930b5127baeddcd10001560a3309e199",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+      "appleScreenshotID": "60c7f012-4197-4829-a45f-b5702ddb350a",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "iphone-6.9/07-disruption-widget.png",
+      "sha256": "99c04511780f5d3d399792a7d53c7fe769a97378b846f5a499766796d8172b4e",
+      "rawPath": "iphone-6.9/07-disruption-widget.png",
+      "rawSHA256": "f72b462cec99ae5fac95b84efa6adf5d605333f11f150c18982014f909cd34db",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-phone.xcresult : WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+      "appleScreenshotID": "c615bf21-d219-4b26-9f69-d2d72de21b61",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/01-live-board.png",
+      "sha256": "396fc7726eace11adb2799b0052ee339bc9a9833b43c3a1748b7190489006aa0",
+      "rawPath": "ipad-13/01-live-board.png",
+      "rawSHA256": "e6836a231d325ffad79452491cdf66a03bfd47c114930bc37277e97b5b082d8f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "42a5cb6e-a8ab-4abc-8f46-73ec39d5087c",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/02-follow-train.png",
+      "sha256": "6740e639be199dad39dbaccf075c1074346d76ed897578fd8af11b4dc65c06bf",
+      "rawPath": "ipad-13/02-follow-train.png",
+      "rawSHA256": "692fe725426b5b30990e3c63c3a0e9be193778133ea626ef15f1e24c4af4e24a",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult : AppStoreScreenshotTests/testCaptureV12FollowScreenshot()",
+      "appleScreenshotID": "dc74f0da-0841-4474-b27f-a7b01dec2227",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/03-next-departures.png",
+      "sha256": "fc1b5e1f1dc86ca5f5a595bb71669bfd185e5a549a76803b917a0c55ba5adc01",
+      "rawPath": "ipad-13/03-next-departures.png",
+      "rawSHA256": "9996e2341b3edf8b3930fb3e870c52f3dbb74cb05169c26752131c8354c1a9b6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "a36fbf4b-4bb8-42c1-827c-8d528c58dee4",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/04-overground.png",
+      "sha256": "4decd6d46d3bfeb70e69ecdb5a704a4f33edc1a03523a136bed7af72857d44cd",
+      "rawPath": "ipad-13/04-overground.png",
+      "rawSHA256": "2376b29d63ca40628d26fb0eaf873e405ea121af90d768f140ccff83a5c06f5f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult : AppStoreScreenshotTests/testCaptureV12OvergroundScreenshot()",
+      "appleScreenshotID": "5c5d3faa-1d21-4626-9193-126f537df4cc",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/05-by-destination.png",
+      "sha256": "4c9a8da44d1cc148258ecb6721dc5699ce155ed2ea249f8d3478c1a78c538ead",
+      "rawPath": "ipad-13/05-by-destination.png",
+      "rawSHA256": "00230fc39697ff4dc23752b620862918e6a8fd4fee48ad3eaef0c7c9f503cfca",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad-focused.xcresult : AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+      "appleScreenshotID": "3eb096e0-ab90-4d30-8aaf-738d24bcc3d4",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/06-system-board.png",
+      "sha256": "c3c138514e36195c3184afc456a12b6ab1c0567ac8d95ba77ca8a91f3e2fac8e",
+      "rawPath": "ipad-13/06-system-board.png",
+      "rawSHA256": "33853028ba0cf8e96fea046a0f5afa7e335fa4cff8ea86d3b1365d4de05ddadd",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult : WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+      "appleScreenshotID": "2828048f-45f1-430a-b3f4-f7c5eaf57ff9",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "ipad-13/07-disruption-widget.png",
+      "sha256": "177215624fe6cb4f8148b650ba0d811979a5365381ea5eb8c5075e4028bac6c6",
+      "rawPath": "ipad-13/07-disruption-widget.png",
+      "rawSHA256": "e9502f557521b77f2eeeec2c389e22201c2e747815577d5df8215f29354e82d6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "/private/tmp/tb088-launch-ipad.xcresult : WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+      "appleScreenshotID": "8fe6d317-344c-4909-b068-42a3b7dd2f57",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "watch-46/02-departures.png",
+      "sha256": "45042abba50216db99d9243b344c46708433b6b927456e5c71f71e05f2608adb",
+      "rawPath": "watch-46/02-departures.png",
+      "rawSHA256": "c023c1fe56c3caea7262a73837d8013375a56071c3b29176c458b9961dae4042",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "Native simctl screenshot on dedicated Watch simulator 6238D9A2-39DF-4BBD-851A-122AB07D8CBB, accepted-runtime Debug build with existing demo favourites; visual inspection completed.",
+      "appleScreenshotID": "0ebb98a8-ec0f-4453-8574-aa634f3f87f8",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    },
+    {
+      "path": "watch-46/03-stations.png",
+      "sha256": "56f5d5671e1c3c73ccca87457a2fb3d34b38e2e16ae7c0bc0e74184fdc46b918",
+      "rawPath": "watch-46/03-stations.png",
+      "rawSHA256": "13548051db3e5094e8b2bc9c16d92f3191be94330bd02cfb0028f9d816421e43",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": "Native simctl screenshot on dedicated Watch simulator 6238D9A2-39DF-4BBD-851A-122AB07D8CBB, accepted-runtime Debug build with existing demo favourites; visual inspection completed.",
+      "appleScreenshotID": "8f8bc6d0-f3bd-4c36-bebb-54a0bb037975",
+      "visualReview": {
+        "outcome": "passed",
+        "reviewer": "ChatGPT direct visual inspection",
+        "reviewedAt": "2026-09-06T10:37:33.739486+00:00"
+      }
+    }
+  ],
+  "scopeNote": "Seven current iPhone, seven current iPad and two native Watch app screenshots. System-redacted Watch widget preview excluded from marketing; no runtime acceptance is inferred."
+}

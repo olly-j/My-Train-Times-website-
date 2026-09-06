@@ -1,0 +1,232 @@
+{
+  "marketingVersion": "1.2",
+  "build": "20260905103957",
+  "sourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+  "state": "phone_tablet_prepared_watch_pending",
+  "captureNotes": "Genuine app and WidgetKit views with accepted-source deterministic fixtures. Status bar standardized to 09:41; app timestamps retain the capture clock. No runtime or screenshot content redrawn. Test-only orchestration corrections are separate from app source.",
+  "sourceScope": "iOS; native visionOS independently verified.",
+  "images": [
+    {
+      "rawPath": "ipad-13/01-live-board.png",
+      "rawSHA256": "e6836a231d325ffad79452491cdf66a03bfd47c114930bc37277e97b5b082d8f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "focused iPad capture",
+        "capturedAt": "2026-09-06T09:42:23.932000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/01-live-board.png",
+      "exportSHA256": "01e0bfe6e9f6eb40874091f6ae897a4843b7124cd1122a89e00e3c6632614907"
+    },
+    {
+      "rawPath": "ipad-13/02-follow-train.png",
+      "rawSHA256": "692fe725426b5b30990e3c63c3a0e9be193778133ea626ef15f1e24c4af4e24a",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12FollowScreenshot()",
+        "capture": "initial native iPad capture",
+        "capturedAt": "2026-09-06T09:32:39.960000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/02-follow-train.png",
+      "exportSHA256": "e0e0063173e3de494c38430b6f349fa6d08cff4d3a1a69405f8ff0fdf46b763a"
+    },
+    {
+      "rawPath": "ipad-13/03-next-departures.png",
+      "rawSHA256": "9996e2341b3edf8b3930fb3e870c52f3dbb74cb05169c26752131c8354c1a9b6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "focused iPad capture",
+        "capturedAt": "2026-09-06T09:42:31.773000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/03-next-departures.png",
+      "exportSHA256": "2b0e384882165e868d3d7cad181f01e78e8c7b061e004c747cc661ad34490b8c"
+    },
+    {
+      "rawPath": "ipad-13/04-overground.png",
+      "rawSHA256": "2376b29d63ca40628d26fb0eaf873e405ea121af90d768f140ccff83a5c06f5f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12OvergroundScreenshot()",
+        "capture": "initial native iPad capture",
+        "capturedAt": "2026-09-06T09:32:56.601000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/04-overground.png",
+      "exportSHA256": "8366c03985d3e761311ca88312136dd5152c1da1e75f2195b58aff562d91fe7f"
+    },
+    {
+      "rawPath": "ipad-13/05-by-destination.png",
+      "rawSHA256": "00230fc39697ff4dc23752b620862918e6a8fd4fee48ad3eaef0c7c9f503cfca",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "focused iPad capture",
+        "capturedAt": "2026-09-06T09:42:38.660000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/05-by-destination.png",
+      "exportSHA256": "adfe976435ca19327828052d3d7ec650a426ff5a3569fcfc0e0d39fd9f63f235"
+    },
+    {
+      "rawPath": "ipad-13/06-system-board.png",
+      "rawSHA256": "33853028ba0cf8e96fea046a0f5afa7e335fa4cff8ea86d3b1365d4de05ddadd",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+        "capture": "initial native iPad capture",
+        "capturedAt": "2026-09-06T09:33:57.516000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/06-system-board.png",
+      "exportSHA256": "845385aa15cc1aa5d1d472f50cac42b53b6695b7af7a4a1beda0edc3aac041f3"
+    },
+    {
+      "rawPath": "ipad-13/07-disruption-widget.png",
+      "rawSHA256": "e9502f557521b77f2eeeec2c389e22201c2e747815577d5df8215f29354e82d6",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+        "capture": "initial native iPad capture",
+        "capturedAt": "2026-09-06T09:34:19.915000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "exportPath": "ipad-13/07-disruption-widget.png",
+      "exportSHA256": "894c2bdf52def3742776890cb396cc427239ed5cf1d004ab100257bf43136295"
+    },
+    {
+      "rawPath": "ipad-13/08-premium.png",
+      "rawSHA256": "a310d03656cebfa3f909ba535b6fdf921931b7182248c527328a1127277facf1",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12PremiumReviewScreenshot()",
+        "capture": "focused iPad capture",
+        "capturedAt": "2026-09-06T09:43:19.227000+00:00",
+        "device": "ipad-13",
+        "runtime": "26.5"
+      },
+      "purpose": "App Review purchase screenshot, not a storefront frame"
+    },
+    {
+      "rawPath": "iphone-6.9/01-live-board.png",
+      "rawSHA256": "c744f8e9d316fa557ed40bec3db36ab82660ea6ec014ead0b26127c73d2f2b7d",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:25:26.167000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/01-live-board.png",
+      "exportSHA256": "80bc72cf9fa342d9bbb3c6bee9baf786e66b4c80991ed85ec9b24fff901b0369"
+    },
+    {
+      "rawPath": "iphone-6.9/02-follow-train.png",
+      "rawSHA256": "977421dee030e1e1bbee8525d61b7bc92a3e93be9387bf46c72cbbad6e9d554f",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12FollowScreenshot()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:25:47.126000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/02-follow-train.png",
+      "exportSHA256": "89acb6239b9a2cace44979c6e548033861d25069df2071e4df96c5d753542e3a"
+    },
+    {
+      "rawPath": "iphone-6.9/03-next-departures.png",
+      "rawSHA256": "7237a6fedb944a715260ea247dd2e1a16fbd5d13a4a01e2d854c50fd51bd3d78",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:25:31.650000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/03-next-departures.png",
+      "exportSHA256": "2b781f656751695e09acb85be75bb8d0c7eddd67d458033c9b38e45d48713b00"
+    },
+    {
+      "rawPath": "iphone-6.9/04-overground.png",
+      "rawSHA256": "9472cb0e4c9e095e9f3b9c95d67e5296bb5187fa29785f48961183ec6a6577d1",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12OvergroundScreenshot()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:26:04.676000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/04-overground.png",
+      "exportSHA256": "333ffdfb5a78543e235467b4b88a758bc1a26fba1b6e1c63cc81f2b30248822f"
+    },
+    {
+      "rawPath": "iphone-6.9/05-by-destination.png",
+      "rawSHA256": "18c24137311a8fe7f50f8da571788fd02ea696660503dc126baf8a09df320317",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12CoreScreenshots()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:25:35.874000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/05-by-destination.png",
+      "exportSHA256": "b633852582b99b1214f98b0dffcb502a60c6f72c103be20c2811b960a98eee5b"
+    },
+    {
+      "rawPath": "iphone-6.9/06-system-board.png",
+      "rawSHA256": "f5e4c0886327389f214e96cc9ba62af8930b5127baeddcd10001560a3309e199",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:27:28.378000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/06-system-board.png",
+      "exportSHA256": "36b93b088d1ea788e527a8c4bdffbcd79b618e1f42daa0cfc8437a4d63002304"
+    },
+    {
+      "rawPath": "iphone-6.9/07-disruption-widget.png",
+      "rawSHA256": "f72b462cec99ae5fac95b84efa6adf5d605333f11f150c18982014f909cd34db",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "WidgetGalleryUITests/testCaptureV12SystemScreenshots()",
+        "capture": "initial native iPhone capture",
+        "capturedAt": "2026-09-06T09:27:46.243000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "exportPath": "iphone-6.9/07-disruption-widget.png",
+      "exportSHA256": "e253be0f8a53e233a09cca4fbaad15875760b149cf2af27c49c9efc165b95a59"
+    },
+    {
+      "rawPath": "iphone-6.9/08-premium.png",
+      "rawSHA256": "7d58f63bf1fae16aa26915aeeaad27a9521d84aca72ec78a380a8c83199397c0",
+      "capturedSourceCommit": "e73d4fb926670815d921fca4d88c65a504ad581a",
+      "captureEvidence": {
+        "test": "AppStoreScreenshotTests/testCaptureV12PremiumReviewScreenshot()",
+        "capture": "focused Premium capture",
+        "capturedAt": "2026-09-06T09:46:02.860000+00:00",
+        "device": "iphone-6.9",
+        "runtime": "26.5"
+      },
+      "purpose": "App Review purchase screenshot, not a storefront frame"
+    }
+  ]
+}
