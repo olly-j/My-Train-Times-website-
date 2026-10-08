@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "marketingVersion": "1.2.3",
+  "build": "20261008115502",
+  "state": "assets visually reviewed; not yet uploaded or public submission-ready",
+  "approvedReleaseArchiveSource": "e399df32f842a0076278d31e5c61dbbb7fac376e",
+  "captureFixtureAndOrchestrationCommit": "f180ee3f80118942b012024113783a1ca1ec5531",
+  "productionUIRenderer": "Unchanged ContentView/shared projection at e399; DEBUG capture helpers only at f180. Captures do not claim to be extracted from the signed App Store binary.",
+  "clockBoundary": "Qualified synthetic records keep fixed original epoch and90-second window; original failures and black inactive-Duo attachment retained privately and excluded. Active inner native display captured at originalepoch+15.709s. No field-observation claim.",
+  "recordedAt": "2026-10-08T20:06:14.674141+00:00",
+  "captureEvidence": "olly-j/My-Train-Times artifacts/tb-088-v123-submission-preparation-2026-10-08/capture-and-existing-root-evidence.json at f180",
+  "master": {
+    "path": "04-App-Store-Screenshots/templates/v1.2.3/render.py",
+    "sha256": "338a5ffa0c2767f153f5e1654d798c60c5370ccf9930460bcb5fac64de47f688",
+    "canonicalComposer": "olly-j/My-Train-Times scripts/compose_app_store_screenshots.py at e399",
+    "canonicalComposerSHA256": "881f3f8f73b5d6cd6a80e9cbf4bebaea26b76abb22539f65e0531dcbadfacdb9",
+    "font": "London Underground Medium.ttf, existing SIL Open Font License face; supporting Helvetica Neue",
+    "fontSHA256": "36e509f9abf52ecf7ff82b725b5a212c2d24b0f22f83a9aab5a0a0be0fa627c5"
+  },
+  "AppleSpecifications": [
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications",
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications"
+  ],
+  "scope": "sixphone, sixiPad, twoDuo, twoWatch, separateheader+search; no old accepted image overwritten, no servicepin/website/pricing/privacy change",
+  "images": [
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/creative-assets/01-product-page-header.png",
+      "exportSHA256": "1228d241a20f26eee7c93831849ba416320d4e443989822a20917d612b0fc7c9",
+      "size": [
+        3840,
+        1646
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawInputs": [
+        {
+          "path": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/01-live-board.png",
+          "sha256": "9717f172b97994a6810d5724387a4bc1d1de865767a13c9683113ef8e4e981e8"
+        },
+        {
+          "path": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo/02-inner-workspace-landscape.png",
+          "sha256": "09124e3bd235dfa2418273fe661a3f16c9136bb3d8986f5fed090d43e66575d7"
+        }
+      ]
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/creative-assets/02-search-results.png",
+      "exportSHA256": "fcd4212a3dba22b616822bfa848d24de5b302e0a9565c923e8725ab0c7782d0f",
+      "size": [
+        3840,
+        2560
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawInputs": [
+        {
+          "path": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/01-live-board.png",
+          "sha256": "9717f172b97994a6810d5724387a4bc1d1de865767a13c9683113ef8e4e981e8"
+        },
+        {
+          "path": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo/02-inner-workspace-landscape.png",
+          "sha256": "09124e3bd235dfa2418273fe661a3f16c9136bb3d8986f5fed090d43e66575d7"
+        }
+      ]
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo/01-outer-board.png",
+      "exportSHA256": "9414bd2cfa6a4602476755b108335c6c89f82f68fde59a1283b2a2964b95bb88",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo/01-outer-board.png",
+      "rawSHA256": "c09f803cbf17c4b589fde9bd1c2b182650bb93411d26ed77368294b40293ea02",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo/02-inner-workspace-landscape.png",
+      "exportSHA256": "6d448052fbcf9bd5fdc15e164f73b0141a1cad40eb7d3d7be901bb55fe204cc8",
+      "size": [
+        2853,
+        2007
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo/02-inner-workspace-landscape.png",
+      "rawSHA256": "09124e3bd235dfa2418273fe661a3f16c9136bb3d8986f5fed090d43e66575d7",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/01-live-board.png",
+      "exportSHA256": "ae808ad5d8f4f18788f68d091f5bb6739daa8f304610eb53df2a6dda0e345764",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/01-live-board.png",
+      "rawSHA256": "ad2692b4b42f0e03345857bd16df8d66cff77c1283fddd6fac866bbe669d02fa",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/02-follow-train.png",
+      "exportSHA256": "f81e634a90f2e6094b76de022a80df7a9b0b382d28b8d0ec3ddcc73410f429fc",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/02-follow-train.png",
+      "rawSHA256": "cb61ff58ed9a7d1cf28eade5c99a57dbde1871679e94c8d82c91a4cedbb7e95e",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/03-next-departures.png",
+      "exportSHA256": "ef957bb299d1c9161bf512feb30f28ee7527d85b518829e049d3a3c8ee102afd",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/03-next-departures.png",
+      "rawSHA256": "a7b3a919d79c15657f091bf493f7b593b381afac3a2189d282fcd132b2779a5b",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/04-overground.png",
+      "exportSHA256": "204f5bcae78fde8d5d4a2ab0fa326f90bb65115e75589903b1fc6fadcce307a3",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/04-overground.png",
+      "rawSHA256": "632c7a7bdc456509ba0f92b21cb44a93d6065a59f13b0cd360ba2cf7c3fb40da",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/05-by-destination.png",
+      "exportSHA256": "9b97815098d76f733d14c4979f2cde4a4f259b4c863ed59d2cd43acac7085f6e",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/05-by-destination.png",
+      "rawSHA256": "2a79af71c40a6f9c618e4de813542af19be1efdd60ee9839fdab3c5a010b08fb",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/ipad-13/06-home-status.png",
+      "exportSHA256": "5afc96cc457cdd84042c5b9ff24ae235032daa34a1a35008b9d5c695a3c4d4fc",
+      "size": [
+        2064,
+        2752
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/ipad-13/06-home-status.png",
+      "rawSHA256": "eb6e17234e35e5c1f885244b49f8601081b3bf92eebe824e4a61b0fd7a379eb4",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/01-live-board.png",
+      "exportSHA256": "caebb90084106778db5ea44f132a3c99f55582333ead9e3006d1bda996a3417b",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/01-live-board.png",
+      "rawSHA256": "9717f172b97994a6810d5724387a4bc1d1de865767a13c9683113ef8e4e981e8",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/02-follow-train.png",
+      "exportSHA256": "fdd69750008cd1e141796e3af1d0f297576a75a4c340050a0dde8f55a73d754f",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/02-follow-train.png",
+      "rawSHA256": "16cbb38427cfe1604fbe23e95c90852cf7de0168c1a7a7db13a2062c9c8e7ff0",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/03-next-departures.png",
+      "exportSHA256": "e719adcd8dc4afac10e5ab335c691118a723cd5f5c0abbbc936cdfd27f6f7f7c",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/03-next-departures.png",
+      "rawSHA256": "ac40cc2804e62675aa5133236853f4f6db75d3fd2992a20345192cd2d4f91b91",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/04-overground.png",
+      "exportSHA256": "971d6058aab0a5f8fc3b46a9cce6828f2dd71e7569333b4f7d97195838363ec3",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/04-overground.png",
+      "rawSHA256": "d9b81bb5f3e5b0261f18d96d64399e5a18828e01807579d38a79ffe9c309eecb",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/05-by-destination.png",
+      "exportSHA256": "da053c24ef940c611792adc34affd8dc6b0a20fbda1551b6ea04b02a94a4dc3f",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/05-by-destination.png",
+      "rawSHA256": "1fb826a82696529084bc24611ba92a85a0d2bbe515f677b69a9fe4bb7ad5b379",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/iphone-medium/06-home-status.png",
+      "exportSHA256": "fb222ebafee7beb6f9cf5c2ef2f0ed70e1fda0c48b34b7feb5282b96b4ee9b37",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/iphone-medium/06-home-status.png",
+      "rawSHA256": "5dd1b6e79e97917dd6522a762530881f967012da5cabbb54a31f583151b0ae51",
+      "captureKind": "current-renderer synthetic controlled dataset",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/watch-46/01-nearby-stations.png",
+      "exportSHA256": "46ce00fcc347983c3c19d8e7333b404195b6db31bc8433efc6e74c90c8fd024c",
+      "size": [
+        416,
+        496
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/watch-46/01-nearby-stations.png",
+      "rawSHA256": "15f923b83bf588ddb75f46bf465964ae53cb1fd7aa706debbbabfe69f7e60ba3",
+      "captureKind": "normal real-provider Watch UI; synthetic public station location and simulator entitlement",
+      "interfaceAltered": false
+    },
+    {
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/watch-46/02-live-board.png",
+      "exportSHA256": "f39d336c58516666f7a27ba7e4241a3f399883947cda8aa0f7ff8d36e759e243",
+      "size": [
+        416,
+        496
+      ],
+      "opaque": true,
+      "visuallyReviewed": true,
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/watch-46/02-live-board.png",
+      "rawSHA256": "5f9e83e9406d4730171fea39a3cbfa0af9ca736e48b415eaf44f4cc62458a011",
+      "captureKind": "normal real-provider Watch UI; synthetic public station location and simulator entitlement",
+      "interfaceAltered": false
+    }
+  ],
+  "publicReadiness": false,
+  "pending": "Actual App Store draft selection/upload processing/readback; owner platform/device/named field gate responses; simulator assistive/input and remaining public gates; final owner Submit action untouched",
+  "preview": {
+    "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo/03-app-preview.mp4",
+    "exportSHA256": "cfddd565e2752e1a14a2a7ace2e600f49032291219cee45733e5e1c6b6b83f59",
+    "nativeSHA256": "a96b21182fabb9d70a835262d687471bcfde72a10a1402c190cb8918e42a2c71",
+    "nativeDuration": 19.97,
+    "trimStartSeconds": 4,
+    "duration": 15.9,
+    "size": [
+      886,
+      1920
+    ],
+    "codec": "H.264 High/yuv420p",
+    "fps": 30,
+    "audio": "none",
+    "recipe": "04-App-Store-Screenshots/templates/v1.2.3/render-preview.py",
+    "recipeSHA256": "0520ce7cb5bc8a7bf0cac4a30aa02ae8178c3e60608fd020de92f0717f370828",
+    "source": "Actual running Duo outer display; qualified DEBUG source at f180; fixed original90-second source window. Complete native UI fit without cropping; launch frames omitted. No device or field-observation claim.",
+    "captureClock": {
+      "epoch": 1791489864.95365,
+      "sourceExpiresAt": 1791489954.95365,
+      "launch": "OllyJ.My-Train-Times: 84367",
+      "display": 1,
+      "scenario": "Actual current Duo outer display; synthetic same-record qualified source, original fixed90window; no field-observation or device-signoff claim",
+      "recordingStartElapsed": 5.325809001922607,
+      "recordingEndElapsed": 25.54226803779602,
+      "recordingReturncode": 0,
+      "rawFile": "appstore-duo-preview-native.mov"
+    },
+    "visualReview": "Root reviewed original4/10/19second native and0/5/10/15second export frames; independent review pending",
+    "AppleSpecifications": "https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications"
+  }
+}
