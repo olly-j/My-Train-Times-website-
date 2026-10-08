@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-08T19:59:48.495950+00:00",
+  "version": "1.2.3",
+  "build": "20261008115502",
+  "source": "Existing current Watch renderer, normal TfL/default providers, simulator Premium override",
+  "Nearby": "Existing DEBUG synthetic public station location; no user location or location transmission",
+  "notFieldObservations": true,
+  "captures": [
+    {
+      "raw": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/watch-46/01-nearby-stations.png",
+      "sha256": "15f923b83bf588ddb75f46bf465964ae53cb1fd7aa706debbbabfe69f7e60ba3",
+      "size": [
+        416,
+        496
+      ]
+    },
+    {
+      "raw": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/watch-46/02-live-board.png",
+      "sha256": "5f9e83e9406d4730171fea39a3cbfa0af9ca736e48b415eaf44f4cc62458a011",
+      "size": [
+        416,
+        496
+      ]
+    }
+  ],
+  "rejected": "Expired navigation fixture, throttled fixture, duplicate-line rail fixture, empty Northern fixture all retained privately; none selected as marketing."
+}
