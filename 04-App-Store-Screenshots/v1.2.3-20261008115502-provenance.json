@@ -292,7 +292,7 @@
   "pending": "Actual App Store draft selection/upload processing/readback; owner platform/device/named field gate responses; simulator assistive/input and remaining public gates; final owner Submit action untouched",
   "preview": {
     "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo/03-app-preview.mp4",
-    "exportSHA256": "cfddd565e2752e1a14a2a7ace2e600f49032291219cee45733e5e1c6b6b83f59",
+    "exportSHA256": "c824482a4653b25e86d069abd2eb9367958fc58570322918b2c82e95711ecfc0",
     "nativeSHA256": "a96b21182fabb9d70a835262d687471bcfde72a10a1402c190cb8918e42a2c71",
     "nativeDuration": 19.97,
     "trimStartSeconds": 4,
@@ -305,7 +305,7 @@
     "fps": 30,
     "audio": "none",
     "recipe": "04-App-Store-Screenshots/templates/v1.2.3/render-preview.py",
-    "recipeSHA256": "0520ce7cb5bc8a7bf0cac4a30aa02ae8178c3e60608fd020de92f0717f370828",
+    "recipeSHA256": "b1c6cb54aec6c0b8444705ce9c17980f670666cf0982bbe12a763a0d67b4936f",
     "source": "Actual running Duo outer display; qualified DEBUG source at f180; fixed original90-second source window. Complete native UI fit without cropping; launch frames omitted. No device or field-observation claim.",
     "captureClock": {
       "epoch": 1791489864.95365,
@@ -318,7 +318,28 @@
       "recordingReturncode": 0,
       "rawFile": "appstore-duo-preview-native.mov"
     },
-    "visualReview": "Root reviewed original4/10/19second native and0/5/10/15second export frames; independent review pending",
-    "AppleSpecifications": "https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications"
+    "visualReview": "Same native source and trim, wholeUI frames reviewed; final10Mbps independent review pending",
+    "AppleSpecifications": "https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications",
+    "bitrateTargetMbps": 10,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 886,
+          "height": 1920,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "15.900000",
+        "size": "19633415",
+        "bit_rate": "9878447"
+      }
+    }
   }
 }
