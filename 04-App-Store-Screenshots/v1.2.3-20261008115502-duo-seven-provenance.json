@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-09T07:55:15.376496+00:00",
+  "ownerDirection": "9 October: six standard stories match other devices; first wide Made for iPhone Duo shows Stations, live board and Premium Follow together. No fold marketing.",
+  "marketingVersion": "1.2.3",
+  "build": "20261008115502",
+  "approvedReleaseArchiveSource": "e399df32f842a0076278d31e5c61dbbb7fac376e",
+  "captureHelpersSource": "f180ee3f80118942b012024113783a1ca1ec5531",
+  "captureBoundary": "Existing installed DEBUG renderer, unchanged customer UI from e399; no new build or app-source edit. Synthetic fixtures, no signed-device or witnessed-station proof. Qualified captures keep original fixed 90-second source windows.",
+  "heroCapture": {
+    "age": 38.89685606956482,
+    "sourceEpoch": 1791531574.523463,
+    "sourceExpiry": 1791531664.523463,
+    "rawFile": "00-made-for-duo.png",
+    "nativeDisplay": 3,
+    "threePanesObserved": true,
+    "captureKind": "actualUI, syntheticshortjourney plusqualifiedLeytonboard",
+    "interfaceRepainted": false,
+    "priorFullRouteETAElision": "retainedprivately; nativeUIellipsis, notappcodechange"
+  },
+  "heroRuntime": "Actual three-pane UI; short three-stop synthetic route, public route-focus controls, normal Large text. Board and Follow remain independent; no event matching or complete real-world route claim. Prior full-route native ETA elision retained privately; no app repair/acceptance waiver inferred.",
+  "diagramBoundary": "Existing app geometry preserved with whole-capture aspect. Retained orthogonal 0.66n tabs and proportional centred interchange rings; system Dynamic Type/dark contrast and live marker are existing TubeBoard adaptations. No protected TfL reference artwork/font copied or new geometry authored.",
+  "images": [
+    {
+      "order": 0,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/00-made-for-duo.png",
+      "exportSHA256": "35bd9081bed7e9e960ee70ceaba37b09dd00ed91d929449b2a8f5f48f5d8fcef",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/00-made-for-duo.png",
+      "rawSHA256": "f450137805e3b358acb96f93d1a06ae3a3ee09b271518dd5f395cd5e20cf0273",
+      "size": [
+        2853,
+        2007
+      ],
+      "opaque": true,
+      "headline": "Made for iPhone Duo",
+      "subline": "Stations, your live board and Premium Follow a Train together",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 1,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/01-live-board.png",
+      "exportSHA256": "bf016748c53a088bd68984f004f05128defcfecbf3a61f49d4dd8eb324c4d981",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/01-live-board.png",
+      "rawSHA256": "3897af311ebe3b6901a931686345a6ff1050a166f95650772f833428a87b5c3d",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "Your next train",
+      "subline": "Live London departures at a glance",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 2,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/02-follow-train.png",
+      "exportSHA256": "433f96132cc472b9963d01dda2de90c314e831c2eba065b6dee004632eed9ab4",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/02-follow-train.png",
+      "rawSHA256": "c724c2d6cb7480c70a789906d14a33c293be3884eca6c2fa1d5c842248f1abf9",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "Follow your train",
+      "subline": "Premium: route and live progress where available",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 3,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/03-next-departures.png",
+      "exportSHA256": "f90766a114b01c9233e7065d456c794da27649c5de8382296287387d942137a8",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/03-next-departures.png",
+      "rawSHA256": "eb26bf3a73ca501d17c779b90d88705373942b7e1774d19312cdc780b376a363",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "Every platform",
+      "subline": "Premium: compare next departures within each direction",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 4,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/04-overground.png",
+      "exportSHA256": "aa1351fe8b35cdbfea7beda157d19876156084a2b0a67c137aefc85bda82d690",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/04-overground.png",
+      "rawSHA256": "603cf4fbe2d72e94c20ab9da5669dc408086d605245a459ab98192081518a235",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "London Overground",
+      "subline": "All six named lines join the free live board",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 5,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/05-by-destination.png",
+      "exportSHA256": "13d3ec56a6da5877bb1bddcbde656a0075e92fbc0f32dfe586b55eab1385f2ef",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/05-by-destination.png",
+      "rawSHA256": "04c15a9c8d22bc4b984d647dd0efd2e62f3d78453a665e5fe2738895b84d456b",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "Heading your way",
+      "subline": "Premium: group your station's trains by destination",
+      "wholeNativeCapturePreserved": true
+    },
+    {
+      "order": 6,
+      "exportPath": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/06-home-status.png",
+      "exportSHA256": "827a3d4a4bab042b3c0f2d1fd6ebe02cf93e92c8e66b06957d6fef70c031051c",
+      "rawPath": "04-App-Store-Screenshots/raw/v1.2.3-20261008115502/duo-standard-seven/06-home-status.png",
+      "rawSHA256": "c9c66805f381ed3eb3f198a5a85c05747d9386ff7094914e65471fb21cd19413",
+      "size": [
+        1398,
+        2034
+      ],
+      "opaque": true,
+      "headline": "Every journey",
+      "subline": "Recent stations and line status together",
+      "wholeNativeCapturePreserved": true
+    }
+  ],
+  "imageMaster": {
+    "path": "04-App-Store-Screenshots/templates/v1.2.3/render-duo-seven.py",
+    "sha256": "4cf42bc2547b32201d5d47dbcee2593338e0c2313288611846d03b26d32e4564"
+  },
+  "preview": {
+    "path": "04-App-Store-Screenshots/marketing/v1.2.3-20261008115502/duo-standard-seven/07-duo-preview-stereo.mov",
+    "sha256": "493af594424f0b58c00b9e458f027a456cca55edc26639426775cfce709b9797",
+    "nativeSourceSHA256": "a96b21182fabb9d70a835262d687471bcfde72a10a1402c190cb8918e42a2c71",
+    "recipe": "04-App-Store-Screenshots/templates/v1.2.3/render-duo-preview-stereo.py",
+    "recipeSHA256": "193414a3281c1216409b7cbf8cb602accd579b5048b51f8c0cb28b207e7c5254",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 886,
+          "height": 1920,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "r_frame_rate": "30/1",
+          "bit_rate": "9875070",
+          "disposition": {
+            "default": 1
+          }
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "r_frame_rate": "0/0",
+          "bit_rate": "2274",
+          "disposition": {
+            "default": 1
+          }
+        }
+      ],
+      "format": {
+        "duration": "15.900000",
+        "size": "19650245",
+        "bit_rate": "9886915"
+      }
+    },
+    "audioEncoderTargetKbps": 256,
+    "audioIsSilent": true,
+    "oldAppleResult": "Old preview upload entry later displayed red processing error. Specific Apple cause not exposed; entry count is not successful processing.",
+    "repair": "Same native running footage, enabled stereo AAC 48kHz with 256kbps encoder target; measured silent AAC bitrate may be lower. No fake or clock-renewed footage.",
+    "assignment": "Retained optional corrected export; proposed seven-still carousel keeps Made for Duo first. No successful Apple processing claimed."
+  },
+  "independentVisualReview": "All seven marketing images and seven raw captures viewed at original size; exact captions, complete UI, Premium and scope reviewed. Corrected video frames/streams reviewed. Root also inspected all seven final images.",
+  "AppStoreConnectRevision": "not yet replaced",
+  "publicSubmissionReady": false
+}
